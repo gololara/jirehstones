@@ -8,37 +8,38 @@ body {
 
 .facebook {
     color: #3b5998;
-
+    transition: color 0.2s;
+    text-decoration: none;
+    margin: 15px;
 }
 
 .facebook:hover {
     color: rgb(36, 137, 226);
-    transition: color 0.2s;
-    text-decoration: none;
-    margin: 10px;
 }
 
 .instagram { 
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background-clip: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);;
+    background-clip: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: color 0.2s;
     text-decoration: none;
-    margin: 10px;
+    margin: 15px;
 }
 
 .instagram:hover {
-    color: rgb(36, 137, 226);
-
+    background: rgb(36, 137, 226);
+    background: rgb(36, 137, 226);
+    background-clip: rgb(36, 137, 226);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .linkedin {
     color: #0e76a8;
     transition: color 0.2s;
     text-decoration: none;
-    margin: 10px;
+    margin: 15px;
 }
 
 .linkedin:hover {
@@ -154,17 +155,17 @@ li {
     .construccion {
         max-width: 100%;
     }
-        
+    
     .logo {
         max-width: 75%;
     }
-        
+    
     .container1 {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-        
+    
     .container2 {
         display: flex;
         justify-content: center;
@@ -180,14 +181,14 @@ li {
         text-decoration: none;
         font-size: 5vw;
     }
-        
+    
     .container4 {
         display: flex;
         justify-content: center;
         text-align: center;
         font-size: 5vw;
     }
-        
+    
     .container5 {
         display: flex;
         flex-direction: row;
@@ -197,7 +198,7 @@ li {
         text-align: center;
         font-size: 5vw;
     }
-        
+    
     .container6 {
         display: flex;
         flex-direction: row;
@@ -207,57 +208,63 @@ li {
         text-align: center;
         font-size: 5vw;
     }
-        
+    
     .container7 {
         display: flex;
         justify-content: center;
         text-align: center;
         font-size: 5vw;
     }
-        
+    
     .clientes {
         text-align: center;
     }
-        
+    
     .i-direccion {
         text-align: center;
     }
 }
 
 @media (min-width: 1024px) {
-    .construccion {
-        max-width: 100%;
-    }
-    
     .logo {
-        max-width: 75%;
+        max-width: 45vw;
     }
     
+    .construccion {
+        max-width: 55vw;
+    }
+
     .container1 {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
     
     .container2 {
-        display: flex;
-        justify-content: center;
+        display: inline-flex;
+        justify-content: flex-start;
         align-items: center;
         text-align: center;
-        font-size: 10vw;
+        font-size: 8vw;
+        margin: 0% 10%;
     }
     
     .container3 {
-        display: flex;
+        display: inline-flex;
         justify-content: center;
+        align-items: flex-start;
         text-align: center;
         text-decoration: none;
+        font-size: 2vw;
+        padding: 0% 10%;
     }
     
     .container4 {
         display: flex;
         justify-content: center;
         text-align: center;
+        font-size: 2vw;
+        margin: 0%;
     }
     
     .container5 {
@@ -267,6 +274,7 @@ li {
         justify-content: space-around;
         align-items: center;
         text-align: center;
+        font-size: 2vw;
     }
     
     .container6 {
@@ -276,19 +284,21 @@ li {
         justify-content: space-around;
         align-items: center;
         text-align: center;
+        font-size: 2vw;
     }
     
     .container7 {
         display: flex;
         justify-content: center;
-        text-align: center
+        text-align: center;
+        font-size: 2vw;
     }
     
     .clientes {
         text-align: center;
     }
     
-    .direccion {
+    .i-direccion {
         text-align: center;
     }
 }

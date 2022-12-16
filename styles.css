@@ -75,6 +75,12 @@ li {
     text-align: center;
     font-weight: bold;
     text-decoration: none;
+    color: rgb(36, 137, 226);
+    transition: color 0.2s;
+}
+
+.email:hover {
+    color: rgb(57, 57, 177);
 }
 
 @media (max-width: 480px) {
